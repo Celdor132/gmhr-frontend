@@ -8,10 +8,9 @@
 }
 .dropdown {
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 .dropdown-button {
-    font-size: 50px;
 }
 .dropdown-content {
     display: none;
@@ -22,7 +21,10 @@
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    border: 3px green;
+    background-color: green;
+    left: initial;
+    left:auto;
+
 }
 .dropdown:hover .dropdown-content {
     display: block;
